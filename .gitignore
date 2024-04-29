@@ -1,0 +1,21 @@
+.DS_Store
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+coverage
+test/junit-report.xml
+# omit NPM dependencies for private NPM modules due NPM import warnings
+npm-debug.log
+node_modules
+# omit YUIDoc output
+out
+# Prevent NPM lock files being saved
+yarn.lock
+npm-shrinkwrap.json
+# things generated during builds
+version.txt
+.idea

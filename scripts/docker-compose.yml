@@ -1,0 +1,14 @@
+
+version: '2.4'
+services:
+
+  #
+  # Dashing/Smashing service
+  #
+  smashing:
+    image: 'dockerregistry.routematch.com/rm-docker-dashing:<tag>'
+    ports:
+      - '8080:3030'
+    container_name: smashing
+    mem_limit: 1000M
+    restart: always

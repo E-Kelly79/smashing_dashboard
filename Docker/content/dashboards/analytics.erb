@@ -1,0 +1,34 @@
+<script type='text/javascript'>
+$(function() {
+  // These settings override the defaults set in application.coffee. You can do this on a per dashboard basis.
+  Dashing.widget_base_dimensions = [305, 305]
+  Dashing.numColumns = 6
+});
+</script>
+
+<% content_for :title do %>RM Dashboard<% end %>
+<div class="gridster">
+  <ul>
+    <%# <li data-row="1" data-col="1" data-sizex="2" data-sizey="2">
+      <div data-id="37185751_rpm_throughput" data-view="Meter" data-title="RPM" data-min="0" data-max="100"></div>
+    </li>
+    <li data-row="2" data-col="1" data-sizex="2" data-sizey="2">
+      <div data-id="37185860_rpm_throughput" data-view="Meter" data-title="RPM" data-min="0" data-max="100"></div>
+    </li> %>
+
+    <%# <li data-row="2" data-col="1" data-sizex="2" data-sizey="1">
+      <div data-id="Worldclock" data-view="Worldclock" data-timezone="America/New_York" data-title="Atlanta time"></div>
+    </li> %>
+
+    <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
+      <div data-id="37185751" data-view="Newreliclist" data-unordered="true" data-title="production_amble"></div>
+    </li>
+    <li data-row="1" data-col="3" data-sizex="2" data-sizey="1">
+      <div data-id="77876853" data-view="Newreliclist" data-unordered="true" data-title="production_authorisation"></div>
+    </li>
+    <li data-row="1" data-col="5" data-sizex="2" data-sizey="1">
+      <div data-id="37185789" data-view="Newreliclist" data-unordered="true" data-title="production_auth"></div>
+    </li>
+
+  </ul>
+</div>

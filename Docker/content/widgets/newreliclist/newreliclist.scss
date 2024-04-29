@@ -1,0 +1,71 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color:  #1e616f;
+
+$title-color:       #000000;
+$label-color:       #000000;
+$moreinfo-color:    rgba(255, 255, 255, 0.7);
+
+// ----------------------------------------------------------------------------
+// Widget-list styles
+// ----------------------------------------------------------------------------
+.widget-newreliclist {
+
+  background-color: $background-color;
+  vertical-align: top;
+
+  .title {
+    color: $title-color;
+    font-size: 1em;
+    padding-top: 14px;
+    color: white;
+  }
+
+  ol, ul {
+    margin: 0 15px;
+    text-align: left;
+    color: $label-color;
+  }
+
+  ol {
+    list-style-position: inside;
+  }
+
+  li {
+    margin-bottom: 5px;
+  }
+
+  .list-nostyle {
+    list-style: none;
+  }
+
+  .updated-at {
+    color: #000000;
+  }
+
+  #metrics {
+    font-size:1.0em;
+    color: #000000;
+  }
+
+  .metric-elements {
+    float: right;
+  }
+
+  #box {
+    background-color:rgba(0, 0, 0, 0.63);
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #newrelic_logo {
+    height: 1em;
+    border-radius: 10px;
+    display: block;
+    margin: 10px 10px;
+  }
+
+}

@@ -1,0 +1,109 @@
+// ----------------------------------------------------------------------------
+// Widget-list styles
+// ----------------------------------------------------------------------------
+.widget-list {
+
+  background-color: #B4000A;
+  position: relative;
+
+  .title {
+    color: #fff;
+    float: left;
+    margin: 0 15px;
+  }
+
+  .healthTitle {
+    text-align: right;
+    color: #fff;
+    margin: 0 15px;
+  }
+
+  ol, ul {
+    margin: 0 15px;
+    text-align: left;
+    color: #fff;
+  }
+
+  ol {
+    list-style-position: inside;
+  }
+
+  li {
+    margin-bottom: 5px;
+    padding: 0 10px;
+    border-radius: 5px;
+  }
+
+  li:last-child {
+    margin-bottom: 50px;
+  }
+
+  .list-nostyle {
+    list-style: none;
+  }
+
+  // .label {
+
+  // }
+
+  .health {
+    float: right;
+  }
+
+  .value {
+    float: right;
+    margin-left: 12px;
+    font-weight: 600;
+    color: #fff;
+  }
+
+  .imgHealth {
+    margin-top: 7px;
+    float: right;
+    width: 30px;
+    height: 30px;
+  }
+
+  .updated-at {
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    margin: 25px;
+    left: 0;
+  }
+
+  .passIMG {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px; /* Half the height */
+    margin-left: -250px; /* Half the width */
+  }
+
+  .more-info {
+    color: #fff;
+  }
+
+  h1 {
+    font-size: 2em;
+    text-shadow: 1px 1px 0px #fff;
+  }
+
+  #service-body {
+    color: #ccc1c1;
+    font-size: 1em;
+  }
+
+  #service-header {
+    font-weight: bold;
+    color: #fff;
+    font-size: 1.5em;
+  }
+
+  #box {
+    background-color:rgba(0, 0, 0, 0.425);
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+  }
+  
+}

@@ -1,0 +1,29 @@
+<div id="box">
+  <img id="newrelic_logo" src="assets/newrelic.jpg" alt="newrelic_logo">
+  <h1 class="title" data-bind="title"></h1>
+</div>
+
+<ol>
+  <li data-foreach-item="items">
+    <span>Throughput: </span><span data-bind="item.throughput"></span>
+    <br>
+    <span>Apdex score: </span><span data-bind="item.apdex"></span>
+    <br>
+    <span>Avg Response time: </span><span data-bind="item.resptime"></span>
+  </li>
+</ol>
+
+<ul class="list-nostyle">
+  <li data-foreach-item="items">
+    <div id="metrics">
+      <span>Throughput: </span><span class="value metric-elements" data-bind="item.throughput"></span>
+      <br>
+      <span>Apdex score: </span><span class="apdex metric-elements" data-bind="item.apdex"></span>
+      <br>
+      <span>Avg response time: </span><span class="value metric-elements" data-bind="item.resptime"></span>
+    </div>
+  </li>
+</ul>
+
+<p class="more-info" data-bind="moreinfo"></p>
+<p class="updated-at" data-bind="updatedAtMessage"></p>

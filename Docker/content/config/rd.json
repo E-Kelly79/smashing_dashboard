@@ -1,0 +1,669 @@
+{
+    "goBaseUrl": "https://rd.gocd.routematch.com",
+    "integrations": [
+        {
+            "id": "com-config-docker-amble",
+            "server": "Go"
+        },
+        {
+            "id": "com-utils-dependency-ci",
+            "server": "Go"
+        },
+        {
+            "id": "com-docker-dashing",
+            "server": "Go"
+        },
+        {
+            "id": "com-docker-debian-base",
+            "server": "Go"
+        },
+        {
+            "id": "com-docker-node-base",
+            "server": "Go"
+        },
+        {
+            "id": "com-docker-java-8",
+            "server": "Go"
+        },
+        {
+            "id": "com-docker-postgres",
+            "server": "Go"
+        },
+        {
+            "id": "com-utils-java-flyway",
+            "server": "Go"
+        },
+        {
+            "id": "com-docker-consul",
+            "server": "Go"
+        },
+        {
+            "id": "com-docker-alpine-base",
+            "server": "Go"
+        },
+        {
+            "id": "com-docker-python-yq",
+            "server": "Go"
+        },
+        {
+            "id": "com-config-platform-configuration",
+            "server": "Go"
+        },
+        {
+            "id": "com-utils-node-jshint",
+            "server": "Go"
+        },
+        {
+            "id": "com-docker-redis",
+            "server": "Go"
+        },
+        {
+            "id": "com-docker-rabbitmq",
+            "server": "Go"
+        },
+        {
+            "id": "com-utils-node-istanbul",
+            "server": "Go"
+        },
+        {
+            "id": "com-utils-node-dataseeder",
+            "server": "Go"
+        },
+        {
+            "id": "com-docker-nginx",
+            "server": "Go"
+        },
+        {
+            "id": "com-docker-node-8-base",
+            "server": "Go"
+        },
+        {
+            "id": "com-docker-node-8-deploy",
+            "server": "Go"
+        },
+        {
+            "id": "com-docker-node-8-develop",
+            "server": "Go"
+        },
+        {
+            "id": "com-docker-node-deploy",
+            "server": "Go"
+        },
+        {
+            "id": "com-docker-arangodb",
+            "server": "Go"
+        },
+        {
+            "id": "com-docker-rabbitmq-management",
+            "server": "Go"
+        },
+        {
+            "id": "com-utils-dependency-dev",
+            "server": "Go"
+        },
+        {
+            "id": "com-docker-golang",
+            "server": "Go"
+        },
+        {
+            "id": "com-config-eslint",
+            "server": "Go"
+        },
+        {
+            "id": "com-docker-logentries",
+            "server": "Go"
+        },
+        {
+            "id": "com-config-ssl-certs",
+            "server": "Go"
+        },
+        {
+            "id": "com-utils-node-tenantdb-create",
+            "server": "Go"
+        },
+        {
+            "id": "com-config-nginx-newrelic-agent",
+            "server": "Go"
+        },
+        {
+            "id": "com-docker-nginx-newrelic-agent",
+            "server": "Go"
+        },
+        {
+            "id": "com-config-nginx-servers",
+            "server": "Go"
+        },
+        {
+            "id": "com-config-nginx-application",
+            "server": "Go"
+        },
+        {
+            "id": "com-docker-jasper",
+            "server": "Go"
+        },
+        {
+            "id": "com-utils-arango-seed",
+            "server": "Go"
+        },
+        {
+            "id": "com-docker-node-development",
+            "server": "Go"
+        },
+        {
+            "id": "com-config-nyc",
+            "server": "Go"
+        },
+        {
+            "id": "com-docker-terraform",
+            "server": "Go"
+        },
+        {
+            "id": "com-docker-nginx-dynamic-proxy",
+            "server": "Go"
+        },
+        {
+            "id": "com-schema-sql-core",
+            "server": "Go"
+        },
+        {
+            "id": "com-schema-sql-psplogdb",
+            "server": "Go"
+        },
+        {
+            "id": "com-schema-sql-tenant",
+            "server": "Go"
+        },
+        {
+            "id": "com-config-bash-rabbitmq",
+            "server": "Go"
+        },
+        {
+            "id": "com-utils-arango-provision",
+            "server": "Go"
+        },
+        {
+            "id": "com-schema-arango-tenant",
+            "server": "Go"
+        },
+        {
+            "id": "ng-agency-fe",
+            "server": "Go"
+        },
+        {
+            "id": "ng-front-end",
+            "server": "Go"
+        },
+        {
+            "id": "ng-facility-fe",
+            "server": "Go"
+        },
+        {
+            "id": "ng-rider-fe",
+            "server": "Go"
+        },
+        {
+            "id": "ng-mod-rider-fe",
+            "server": "Go"
+        },
+        {
+            "id": "com-data-sql-seed-core",
+            "server": "Go"
+        },
+        {
+            "id": "com-data-sql-seed-tenant",
+            "server": "Go"
+        },
+        {
+            "id": "com-data-config-rabbitmq",
+            "server": "Go"
+        },
+        {
+            "id": "com-data-config-arango",
+            "server": "Go"
+        },
+        {
+            "id": "com-docker-postgres-replete",
+            "server": "Go"
+        },
+        {
+            "id": "com-npm-node-logging",
+            "server": "Go"
+        },
+        {
+            "id": "com-npm-node-persistence",
+            "server": "Go"
+        },
+        {
+            "id": "com-npm-node-consul",
+            "server": "Go"
+        },
+        {
+            "id": "com-npm-node-endpoint-advertiser",
+            "server": "Go"
+        },
+        {
+            "id": "com-npm-node-designbycontract",
+            "server": "Go"
+        },
+        {
+            "id": "com-npm-node-validator",
+            "server": "Go"
+        },
+        {
+            "id": "com-npm-node-jwt",
+            "server": "Go"
+        },
+        {
+            "id": "com-npm-node-svcutils",
+            "server": "Go"
+        },
+        {
+            "id": "com-npm-node-redis",
+            "server": "Go"
+        },
+        {
+            "id": "com-npm-node-environment",
+            "server": "Go"
+        },
+        {
+            "id": "com-npm-node-errors",
+            "server": "Go"
+        },
+        {
+            "id": "com-npm-node-testhelpers",
+            "server": "Go"
+        },
+        {
+            "id": "com-npm-node-docker-discovery",
+            "server": "Go"
+        },
+        {
+            "id": "com-npm-node-servicediscovery",
+            "server": "Go"
+        },
+        {
+            "id": "com-npm-node-datestimes",
+            "server": "Go"
+        },
+        {
+            "id": "com-npm-node-pgsqlbuilder",
+            "server": "Go"
+        },
+        {
+            "id": "com-npm-node-jsonschema",
+            "server": "Go"
+        },
+        {
+            "id": "com-npm-node-express-pagination",
+            "server": "Go"
+        },
+        {
+            "id": "com-npm-node-messaging",
+            "server": "Go"
+        },
+        {
+            "id": "com-npm-node-amqp",
+            "server": "Go"
+        },
+        {
+            "id": "com-npm-node-socket.io",
+            "server": "Go"
+        },
+        {
+            "id": "com-npm-node-express-middleware",
+            "server": "Go"
+        },
+        {
+            "id": "com-npm-node-net",
+            "server": "Go"
+        },
+        {
+            "id": "com-npm-node-arango",
+            "server": "Go"
+        },
+        {
+            "id": "com-npm-node-bluefin",
+            "server": "Go"
+        },
+        {
+            "id": "com-npm-node-arango-migrations",
+            "server": "Go"
+        },
+        {
+            "id": "com-npm-node-mobile-ticket",
+            "server": "Go"
+        },
+        {
+            "id": "com-npm-node-riderinfo",
+            "server": "Go"
+        },
+        {
+            "id": "com-npm-node-agency-finder",
+            "server": "Go"
+        },
+        {
+            "id": "com-npm-eslint-config-rmstyle",
+            "server": "Go"
+        },
+        {
+            "id": "com-npm-eslint-config-rmstyle",
+            "server": "Go"
+        },
+        {
+            "id": "com-npm-node-service-init",
+            "server": "Go"
+        },
+        {
+            "id": "com-service-node-profile",
+            "server": "Go"
+        },
+        {
+            "id": "com-service-node-email",
+            "server": "Go"
+        },
+        {
+            "id": "com-service-node-agency",
+            "server": "Go"
+        },
+        {
+            "id": "com-service-node-agency-resource",
+            "server": "Go"
+        },
+        {
+            "id": "com-service-node-app-features",
+            "server": "Go"
+        },
+        {
+            "id": "com-service-node-auth",
+            "server": "Go"
+        },
+        {
+            "id": "com-service-node-authentication",
+            "server": "Go"
+        },
+        {
+            "id": "com-service-node-authorisation",
+            "server": "Go"
+        },
+        {
+            "id": "com-service-node-business-rules",
+            "server": "Go"
+        },
+        {
+            "id": "com-service-node-customer-search",
+            "server": "Go"
+        },
+        {
+            "id": "com-service-node-facility",
+            "server": "Go"
+        },
+        {
+            "id": "com-service-node-facility-view",
+            "server": "Go"
+        },
+        {
+            "id": "com-service-node-integration-trapeze",
+            "server": "Go"
+        },
+        {
+            "id": "com-service-node-jwt",
+            "server": "Go"
+        },
+        {
+            "id": "com-service-node-pso",
+            "server": "Go"
+        },
+        {
+            "id": "com-service-node-refresh-token",
+            "server": "Go"
+        },
+        {
+            "id": "com-service-node-reports",
+            "server": "Go"
+        },
+        {
+            "id": "com-service-node-rmxs",
+            "server": "Go"
+        },
+        {
+            "id": "com-service-node-validation",
+            "server": "Go"
+        },
+        {
+            "id": "com-service-node-product-catalog",
+            "server": "Go"
+        },
+        {
+            "id": "com-service-node-user-agency",
+            "server": "Go"
+        },
+        {
+            "id": "com-service-node-user-rider",
+            "server": "Go"
+        },
+        {
+            "id": "com-service-node-file-storage",
+            "server": "Go"
+        },
+        {
+            "id": "com-service-node-s3-bucket-management",
+            "server": "Go"
+        },
+        {
+            "id": "com-service-node-schedule-job",
+            "server": "Go"
+        },
+        {
+            "id": "mod-service-go-trip-planner",
+            "server": "Go"
+        },
+        {
+            "id": "mod-service-node-driver",
+            "server": "Go"
+        },
+        {
+            "id": "mod-service-node-driverview",
+            "server": "Go"
+        },
+        {
+            "id": "mod-service-node-fare",
+            "server": "Go"
+        },
+        {
+            "id": "mod-service-node-gtfs",
+            "server": "Go"
+        },
+        {
+            "id": "mod-service-node-itinerary",
+            "server": "Go"
+        },
+        {
+            "id": "mod-service-node-itinerary-view",
+            "server": "Go"
+        },
+        {
+            "id": "mod-service-node-region",
+            "server": "Go"
+        },
+        {
+            "id": "mod-service-node-region-view",
+            "server": "Go"
+        },
+        {
+            "id": "mod-service-node-reservation",
+            "server": "Go"
+        },
+        {
+            "id": "mod-service-node-reservationview",
+            "server": "Go"
+        },
+        {
+            "id": "mod-service-node-rider-comment",
+            "server": "Go"
+        },
+        {
+            "id": "mod-service-node-rider-mobility",
+            "server": "Go"
+        },
+        {
+            "id": "mod-service-node-travel-hub",
+            "server": "Go"
+        },
+        {
+            "id": "mod-service-node-trip-booking",
+            "server": "Go"
+        },
+        {
+            "id": "mod-service-node-trip-notification-agent",
+            "server": "Go"
+        },
+        {
+            "id": "mod-service-node-trip-view",
+            "server": "Go"
+        },
+        {
+            "id": "mod-service-go-rme",
+            "server": "Go"
+        },
+        {
+            "id": "mod-service-node-attribute",
+            "server": "Go"
+        },
+        {
+            "id": "pay-service-node-balance",
+            "server": "Go"
+        },
+        {
+            "id": "pay-service-node-payment",
+            "server": "Go"
+        },
+        {
+            "id": "pay-service-node-nopay",
+            "server": "Go"
+        },
+        {
+            "id": "pay-service-node-billing",
+            "server": "Go"
+        },
+        {
+            "id": "pay-service-node-billing-view",
+            "server": "Go"
+        },
+        {
+            "id": "pay-service-node-refund-view",
+            "server": "Go"
+        },
+        {
+            "id": "pay-service-node-driver-view",
+            "server": "Go"
+        },
+        {
+            "id": "pay-service-node-mobile-fare",
+            "server": "Go"
+        },
+        {
+            "id": "pay-service-node-mobile-ticket",
+            "server": "Go"
+        },
+        {
+            "id": "pay-service-node-mobile-ticket-view",
+            "server": "Go"
+        },
+        {
+            "id": "pay-service-node-payment-result",
+            "server": "Go"
+        },
+        {
+            "id": "pay-service-node-payment-settings",
+            "server": "Go"
+        },
+        {
+            "id": "pay-service-node-payment-status",
+            "server": "Go"
+        },
+        {
+            "id": "pay-service-node-payment-type",
+            "server": "Go"
+        },
+        {
+            "id": "pay-service-node-payment-view",
+            "server": "Go"
+        },
+        {
+            "id": "pay-service-node-psp-account",
+            "server": "Go"
+        },
+        {
+            "id": "pay-service-node-psp-view",
+            "server": "Go"
+        },
+        {
+            "id": "pay-service-node-refund",
+            "server": "Go"
+        },
+        {
+            "id": "pay-service-node-simple-ticket",
+            "server": "Go"
+        },
+        {
+            "id": "pay-service-node-smartcard",
+            "server": "Go"
+        },
+        {
+            "id": "pay-service-node-eft",
+            "server": "Go"
+        },
+        {
+            "id": "pay-service-node-passfares",
+            "server": "Go"
+        },
+        {
+            "id": "pay-service-node-geofence",
+            "server": "Go"
+        },
+        {
+            "id": "pay-service-node-balance-view",
+            "server": "Go"
+        },
+        {
+            "id": "pay-service-node-batch-trips-processor",
+            "server": "Go"
+        },
+        {
+            "id": "rivft-service-node-vehicle-view",
+            "server": "Go"
+        },
+        {
+            "id": "com-module-golang-utilities",
+            "server": "Go"
+        },
+        {
+            "id": "com-module-golang-environment",
+            "server": "Go"
+        },
+        {
+            "id": "com-module-golang-consul",
+            "server": "Go"
+        },
+        {
+            "id": "com-config-agency-datacentre-routing",
+            "server": "Go"
+        },
+        {
+            "id": "QA-Jasper-Deployment",
+            "server": "Go"
+        },
+        {
+            "id": "PreProd-Jasper-Deployment",
+            "server": "Go"
+        },
+        {
+            "id": "Production-Jasper-Deployment",
+            "server": "Go"
+        },
+        {
+            "id": "Demo-Jasper-Deployment",
+            "server": "Go"
+        }
+    ]
+}

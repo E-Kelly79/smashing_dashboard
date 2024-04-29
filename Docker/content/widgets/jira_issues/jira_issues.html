@@ -1,0 +1,26 @@
+<div class="box">
+<h1 class="title" data-bind="title"></h1>
+</div>
+<ol>
+  <li data-foreach-item="items">
+    <span class="key" data-bind="item.key"></span>
+    <span class="assignee" data-bind="item.assignee"></span>
+  </li>
+</ol>
+
+<ul class="list-nostyle">
+  <br>
+  <li data-foreach-item="items">
+    <div class="avatar">
+      <img data-bind-src="item.avatar">
+    </div>
+    <div class="issue-header">
+      <h3><span class="key" data-bind="item.key"></span> 
+          (<span class="type" data-bind="item.type"></span>) assigned to <span class="assignee" data-bind="item.assignee"></span></h3>
+    </div>
+    <span class="summary" data-bind="item.summary"></span>
+    <hr style="margin: 15px 0px;">
+  </li>
+</ul>
+<p class="more-info" data-bind="moreinfo"></p>
+<p class="updated-at" data-bind="updatedAtMessage"></p>

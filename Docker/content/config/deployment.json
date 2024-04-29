@@ -1,0 +1,53 @@
+{
+    "goBaseUrl": "https://deployment.gocd.routematch.com",
+    "integrations": [
+        {
+            "id": "provision-clientdev",
+            "server": "Go"
+        },
+        {
+            "id": "provision-integration",
+            "server": "Go"
+        },
+        {
+            "id": "provision-qa",
+            "server": "Go"
+        },
+        {
+            "id": "provision-preprod",
+            "server": "Go"
+        },
+        {
+            "id": "provision-production",
+            "server": "Go"
+        },
+        {
+            "id": "provision-performance",
+            "server": "Go"
+        },
+        {
+            "id": "AMICreation",
+            "server": "Go"
+        },
+        {
+            "id": "User-Access-List",
+            "server": "Go"
+        },
+        {
+            "id": "common-bastion-users",
+            "server": "Go"
+        },
+        {
+            "id": "production-bastion-users",
+            "server": "Go"
+        },
+        {
+            "id": "production-aus-bastion-users",
+            "server": "Go"
+        },
+        {
+            "id": "deploy-webapp-agency-qa",
+            "server": "Go"
+        }
+    ]
+}

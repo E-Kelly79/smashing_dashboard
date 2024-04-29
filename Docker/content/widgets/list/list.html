@@ -1,0 +1,30 @@
+<div id="box">
+<h1 class="title" data-bind="title"></h1>
+<h1 class="healthTitle">Health</h1>
+</div>
+<img class="passIMG" data-bind-src="passIMG"></span>
+<ol>
+  <li data-foreach-item="items">
+    <span class="label" data-bind="item.label"></span>
+    <span class="value" data-bind="item.value"></span>
+  </li>
+</ol>
+
+<ul class="list-nostyle">
+  <li data-foreach-item="items">
+    <div id="service-header">
+      <span class="label" data-bind="item.label"></span>
+      <span class="health" data-bind="item.health"></span>
+      <img class ="imgHealth" src="assets/health.png"><br>
+    </div>
+    <div id="service-body">
+      <span data-bind="item.trigger"></span><br>
+      <span data-bind="item.approvedBy"></span>
+      <br>
+      <span data-bind="item.difference"></span>
+    </div>
+    <hr>
+  </li>
+</ul>
+<p class="more-info" data-bind="moreinfo"></p>
+<p class="updated-at" data-bind="updatedAtMessage"></p>

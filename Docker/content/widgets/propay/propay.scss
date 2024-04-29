@@ -1,0 +1,43 @@
+// ----------------------------------------------------------------------------
+// Widget-list styles
+// ----------------------------------------------------------------------------
+.widget-propay {
+  background-color: #FFFFFF;
+
+  .updated-at {
+    color: black;
+  }
+
+  .title {
+    color: white;
+  }
+
+  .service_circle {
+    padding: 20px;
+    display: inline-block;
+    width: 105px;
+    height: 105px;
+    background-color: blue;
+    border-radius: 100%;
+    text-align: center;
+    margin-right: 20px;
+  }
+
+  .service_circle strong {
+    line-height: 100%;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 20px;
+    display: block;
+  }
+
+  #box {
+    background-color:rgba(0, 0, 0, 0.74);
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+}

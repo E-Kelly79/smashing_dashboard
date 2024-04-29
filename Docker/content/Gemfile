@@ -1,0 +1,11 @@
+source 'https://rubygems.org'
+
+gem 'smashing'
+gem 'sinatra_cyclist'
+gem 'httparty'
+gem 'date'
+gem 'time_difference'
+gem 'faraday'
+gem 'jira-ruby'
+gem 'xml-simple'
+gem 'nokogiri'

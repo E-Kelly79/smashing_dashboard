@@ -1,0 +1,56 @@
+<script type='text/javascript'>
+$(function() {
+  // These settings override the defaults set in application.coffee. You can do this on a per dashboard basis.
+  Dashing.widget_base_dimensions = [300, 240]
+  Dashing.numColumns = 6
+});
+</script>
+
+<% content_for :title do %>RM Dashboard<% end %>
+<div class="gridster">
+  <ul>
+    <li data-row="1" data-col="1" data-sizex="2" data-sizey="3">
+      <div data-id="query3" data-unordered="true" data-view="Jira_issues" data-title="Recently opened issues"></div>
+    </li>
+    <li data-row="1" data-col="2" data-sizex="2" data-sizey="3">
+      <div data-id="query4" data-unordered="true" data-view="Jira_issues" data-title="Recently resolved issues"></div>
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="query1" data-view="Number" data-title="Open issues"></div>
+    </li>
+    <li data-row="2" data-col="2" data-sizex="1" data-sizey="1">
+      <div data-id="query2" data-view="Number" data-title="Resolved issues"></div>
+    </li>
+
+    <li data-row="2" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-view="Clocktwo" data-title="Waterford time"></div>
+    </li>
+
+    <li data-row="2" data-col="2" data-sizex="1" data-sizey="1">
+      <div data-id="2960991" data-view="Weather"></div>
+    </li>
+
+    <li data-row="3" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-view="Clock" data-title="Atlanta time"></div>
+    </li>
+
+    <li data-row="3" data-col="2" data-sizex="1" data-sizey="1">
+      <div data-id="4180439" data-view="Weather"></div>
+    </li>
+
+    <li data-row="4" data-col="4" data-sizex="1" data-sizey="1">
+      <div data-id="37185751" data-view="Newreliclist" data-unordered="true" data-title="production_amble"></div>
+    </li>
+    <li data-row="4" data-col="5" data-sizex="1" data-sizey="1">
+      <div data-id="77876853" data-view="Newreliclist" data-unordered="true" data-title="production_authorisation"></div>
+    </li>
+    <li data-row="4" data-col="6" data-sizex="1" data-sizey="1">
+      <div data-id="37185789" data-view="Newreliclist" data-unordered="true" data-title="production_auth"></div>
+    </li>
+
+    <li data-row="4" data-col="1" data-sizex="2" data-sizey="1">
+      <div data-id="propay" data-view="Propay" data-title="ProPay Services Status"></div>
+    </li>
+  </ul>
+</div>

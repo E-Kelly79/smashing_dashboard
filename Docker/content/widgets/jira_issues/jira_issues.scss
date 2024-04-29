@@ -1,0 +1,65 @@
+// ----------------------------------------------------------------------------
+// Widget-list styles
+// ----------------------------------------------------------------------------
+.widget-jira-issues {
+  background-color: #205081;
+
+  .title {
+    color: #fff;
+    margin: 0 15px;
+    text-align: center;
+  }
+
+  ol, ul {
+    margin: 0 15px;
+    text-align: left;
+    color: #fff;
+    clear: both;
+  }
+
+  ol {
+    list-style-position: inside;
+  }
+
+  li {
+    margin-bottom: 5px;
+  }
+
+  li:last-child {
+    margin-bottom: 50px;
+  }
+
+  .list-nostyle {
+    list-style: none;
+    display: grid;
+  }
+
+  .updated-at {
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    margin: 25px;
+    left: 0;
+  }
+
+  .box {
+    background-color:rgba(0, 0, 0, 0.425);
+    padding-bottom: 10px;
+    overflow: hidden;
+    margin: 0 0;
+  }
+
+  .summary {
+    color: #ccc1c1;
+  }
+
+  .avatar {
+    float: left;
+    margin-top: 3px;
+    margin-right: 5px;
+  }
+
+  .issue-header {
+    white-space: nowrap;
+  }
+}
